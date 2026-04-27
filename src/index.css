@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+
+@theme{
+  --font-Roboto:"Roboto";
+
+  --color-blueGray-900:#0F172A;
+  --color-btnColor:#FCD34D;
+  --color-blueLight-800:#0369A1;
+  --color-btnText:#78350F;
+  --color-blueLight-200:#BAE6FD;
+
+  --text-32px:32px;
+  --text-h1:72px;
+  --text-h2:56px;
+  --text-16px:16px;
+
+  
+}
+
+@layer base{
+  body{
+    @apply w-full h-screen overflow-x-hidden bg-white m-0 p-0 box-border text-16px
+  }  
+
+}
+/* @layer components{
+  .flexBetween{
+    @apply flex justify-between items-center
+  }
+  .flexCenter{
+    @apply flex justify-center items-center
+  }
+
+  .h1{
+    @apply font-extrabold text-h1 leading-[110%];
+  }
+} */
