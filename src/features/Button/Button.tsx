@@ -1,8 +1,9 @@
+import arrow from "../../assets/icons/arrow-right.svg";
+
 interface ButtonProps {
   typeBtn: "primary" | "secondary";
   type: "button" | "submit" | "reset";
   onClick?: () => void;
-  img?: string;
   children: React.ReactNode;
   className?: string;
 }
@@ -12,7 +13,6 @@ const Button: React.FC<ButtonProps> = ({
   type,
   onClick,
   children,
-  img,
   className,
 }) => {
   return (
@@ -22,7 +22,7 @@ const Button: React.FC<ButtonProps> = ({
       onClick={onClick}
     >
       <span>{children}</span>
-      <img src={img} alt="" />
+      <img src={arrow} alt="" />
     </button>
   );
 };

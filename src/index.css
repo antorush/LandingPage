@@ -1,28 +1,26 @@
 @import "tailwindcss";
 
+@theme {
+  --font-Roboto: "Roboto";
 
-@theme{
-  --font-Roboto:"Roboto";
+  --color-blueGray-900: #0f172a;
+  --color-btnColor: #fcd34d;
+  --color-blueLight-800: #0369a1;
+  --color-blueLight-400: #38bdf8;
+  --color-btnText: #78350f;
+  --color-blueLight-200: #bae6fd;
 
-  --color-blueGray-900:#0F172A;
-  --color-btnColor:#FCD34D;
-  --color-blueLight-800:#0369A1;
-  --color-btnText:#78350F;
-  --color-blueLight-200:#BAE6FD;
-
-  --text-32px:32px;
-  --text-h1:72px;
-  --text-h2:56px;
-  --text-16px:16px;
-
-  
+  --text-32px: 32px;
+  --text-h1: 72px;
+  --text-h2: 56px;
+  --text-h6: 24px;
+  --text-16px: 16px;
 }
 
-@layer base{
-  body{
-    @apply w-full h-screen overflow-x-hidden bg-white m-0 p-0 box-border text-16px
-  }  
-
+@layer base {
+  body {
+    @apply w-full h-screen overflow-x-hidden bg-white m-0 p-0 box-border text-16px;
+  }
 }
 /* @layer components{
   .flexBetween{

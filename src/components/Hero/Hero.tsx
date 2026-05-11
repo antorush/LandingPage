@@ -22,7 +22,7 @@ const Hero: React.FC<HeroProps> = () => {
                 Viverra viverra nibh enim et aliquam, enim. Tempor, sit{" "}
                 <br></br> mus viverra orci dui consequat turpis scelerisque.
               </p>
-              <Button type="button" typeBtn="secondary" img={arrow}>
+              <Button type="button" typeBtn="secondary">
                 Request a Quote
               </Button>
             </div>

@@ -22,9 +22,9 @@ const PickSun: React.FC<PickSunProps> = () => {
             subtitle="No more waste"
             position="text-center"
           />
-          <div className="block relative z-50 rounded-2xl drop-shadow-2xl">
+          <div className="block relative z-30 rounded-2xl drop-shadow-2xl after:absolute after:block after:w-[90px] after:h-[45px] after:bg-purple-700 after:bottom-1/3 after:-left-[25px] after:rounded-b-full after:z-40 before:absolute before:block before:w-[150px] before:h-[150px] before:bg-amber-400 before:rounded-full before:z-40 before:bottom-[100px] before:-right-[25px]">
             <img
-              className="mt-20 relative z-50 rounded-2xl drop-shadow-2xl"
+              className="mt-20 relative z-30 rounded-2xl drop-shadow-2xl"
               src={pickSun}
               width={1100}
               height={695}

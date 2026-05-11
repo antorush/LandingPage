@@ -41,7 +41,7 @@ const Header: React.FC<HeaderProps> = ({ header }) => {
                   </p>
                 </div>
               ) : (
-                <Button type="button" typeBtn="primary" img={arrow}>
+                <Button type="button" typeBtn="primary">
                   Request a Quote
                 </Button>
               ),
